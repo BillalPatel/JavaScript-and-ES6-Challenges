@@ -4,12 +4,12 @@ Count number of the lowercase vowel letters in the string.
 Vowel letters - a, e, i, o, u
 */
 
-"use strict";
+'use strict';
 
-var vowelsCount = 0;
-var vowels = ["a", "e", "i", "o", "u"];
+const vowelsCount = 0;
+const vowels = ["a", "e", "i", "o", "u"];
 
-var str = "Today is best day of my life";
+const str = "Today is best day of my life";
 
 // Write code here
 
