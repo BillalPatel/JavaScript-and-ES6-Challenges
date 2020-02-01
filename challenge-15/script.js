@@ -5,12 +5,25 @@ Vowel letters - a, e, i, o, u
 
 'use strict';
 
-const vowelsCount = 0;
+let vowelsCount = 0;
 const vowels = ['a', 'e', 'i', 'o', 'u'];
+const str = 'Today is the best day of my life';
 
-const str = 'Today is best day of my life';
+// const newStr = str.split('');
 
-// Write code here
+// for (let i=0; i<newStr.length; i++) {
+// 	for (let j=0; j<vowels.length; j++) {
+// 		if (newStr[i] === vowels[j]) {
+// 			vowelsCount++;
+// 		};
+// 	};
+// }
+
+for (let letter of str) {
+	if (vowels.includes(letter)) {
+  		vowelsCount++;
+  	}
+}
 
 console.log(vowelsCount);
-// 8
+// 9
